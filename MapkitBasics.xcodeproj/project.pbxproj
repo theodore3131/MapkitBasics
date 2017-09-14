@@ -14,6 +14,7 @@
 		E71838461F66887F0027E885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71838441F66887F0027E885 /* LaunchScreen.storyboard */; };
 		E71838511F66887F0027E885 /* MapkitBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71838501F66887F0027E885 /* MapkitBasicsTests.swift */; };
 		E718385C1F66887F0027E885 /* MapkitBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718385B1F66887F0027E885 /* MapkitBasicsUITests.swift */; };
+		E718386A1F6692240027E885 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71838691F6692240027E885 /* config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E71838571F66887F0027E885 /* MapkitBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapkitBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E718385B1F66887F0027E885 /* MapkitBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitBasicsUITests.swift; sourceTree = "<group>"; };
 		E718385D1F66887F0027E885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71838691F6692240027E885 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E718383B1F66887F0027E885 /* AppDelegate.swift */,
 				E718383D1F66887F0027E885 /* ViewController.swift */,
+				E71838691F6692240027E885 /* config.swift */,
 				E718383F1F66887F0027E885 /* Main.storyboard */,
 				E71838421F66887F0027E885 /* Assets.xcassets */,
 				E71838441F66887F0027E885 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					E71838371F66887F0027E885 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 92TX94SYB7;
 						ProvisioningStyle = Automatic;
 					};
 					E718384B1F66887F0027E885 = {
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E718386A1F6692240027E885 /* config.swift in Sources */,
 				E718383E1F66887F0027E885 /* ViewController.swift in Sources */,
 				E718383C1F66887F0027E885 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92TX94SYB7;
 				INFOPLIST_FILE = MapkitBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MapkitBasics";
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92TX94SYB7;
 				INFOPLIST_FILE = MapkitBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MapkitBasics";
